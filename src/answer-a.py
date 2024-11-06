@@ -79,9 +79,10 @@ def answer_a():
     add_new_line()
 
     # Display the concluation and explanation.
-    print("\033[32m Computation Result \033[0m")
+    print("\033[32m Conclusion \033[0m")
     print("--------------------------------------------")
     print("Given that the absolute value of r=-0.17 \nis relatively small, the correlation may \nnot be strong enough to conclude that\ninsomnia significantly impacts job \nperformance for the respondents in this \ndataset.")
+    add_new_line()
     add_new_line()
 
 
