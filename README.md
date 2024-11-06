@@ -1,3 +1,36 @@
 ## AMA Project Data Analysis
 
 > - A course project for course `MATH 6200`.
+
+<br />
+<br />
+
+
+
+## Setup
+
+> - Make sure you have a `Python v3`.
+
+> - Create a `virtual environment`.
+
+```sh
+python3 -m venv venv
+```
+
+> - Install the packages define in `requirements.txt`.
+
+```sh
+python3 install -r requirements.txt
+```
+
+> - Add permission shell file and make it executable.
+
+```sh
+chmod +x run-answer-a.sh
+```
+
+> - Run the answers.
+
+```sh
+./run-answer-a.sh
+```
