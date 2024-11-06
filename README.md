@@ -35,10 +35,14 @@ python3 install -r requirements.txt
 
 ```sh
 chmod +x run-answer-a.sh
+chmod +x run-answer-b.sh
+chmod +x run-answer-c.sh
 ```
 
 > - Run the answers.
 
 ```sh
 ./run-answer-a.sh
+./run-answer-b.sh
+./run-answer-c.sh
 ```
