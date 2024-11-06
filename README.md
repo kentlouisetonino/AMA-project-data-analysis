@@ -2,6 +2,12 @@
 
 > - A course project for course `MATH 6200`.
 
+> - Video recording.
+
+```plaintext
+https://drive.google.com/file/d/13IFLJHcmggdmUhvmX3IOXmXuhewa3Y3G/view?usp=sharing
+```
+
 <br />
 <br />
 

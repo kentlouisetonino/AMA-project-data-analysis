@@ -59,7 +59,7 @@ def answer_a():
     # Compute the numerator ∑(x - x̄) (y - ȳ).
     numerator = sum((xi - sleep_quality_mean) * (yi - job_performance_mean) for xi, yi in zip(sleep_quality_column, job_performance_column))
 
-    # Compute the denominator √(∑(x - x̄)² ∑(x - ȳ)²).
+    # Compute the denominator √(∑(x - x̄)² ∑(y - ȳ)²).
     summation_sleep_quality_deviation_squared = sum((xi - sleep_quality_mean) ** 2 for xi in sleep_quality_column)
     summation_job_performance_deviation_squared = sum((yi - job_performance_mean) ** 2 for yi in job_performance_column)
     denominator = math.sqrt(summation_sleep_quality_deviation_squared * summation_job_performance_deviation_squared)
