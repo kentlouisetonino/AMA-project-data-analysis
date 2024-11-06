@@ -1,2 +1,3 @@
-# AMA-project-data-analysis
-A course project for course MATH 6200.
+## AMA Project Data Analysis
+
+> - A course project for course `MATH 6200`.
