@@ -34,7 +34,7 @@ source venv/bin/activate
 > - Install the packages define in `requirements.txt`.
 
 ```sh
-python3 install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 > - Add permission shell file and make it executable.
