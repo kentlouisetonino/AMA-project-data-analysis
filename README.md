@@ -1,12 +1,6 @@
-## AMA Project Data Analysis
+## Description
 
-> - A course project for course `MATH 6200`.
-
-> - Video recording.
-
-```plaintext
-https://drive.google.com/file/d/13IFLJHcmggdmUhvmX3IOXmXuhewa3Y3G/view?usp=sharing
-```
+> - A course project for course `MATH 6200 - Data Analysis`.
 
 <br />
 <br />
@@ -14,8 +8,6 @@ https://drive.google.com/file/d/13IFLJHcmggdmUhvmX3IOXmXuhewa3Y3G/view?usp=shari
 
 
 ## Setup
-
-> - If you are using Windows machine, please use `GitBash` or `WSL2`.
 
 > - Make sure you have a `Python v3`.
 
@@ -37,18 +29,14 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
-> - Add permission shell file and make it executable.
+> - Run the programs.
 
 ```sh
-chmod +x run-answer-a.sh
-chmod +x run-answer-b.sh
-chmod +x run-answer-c.sh
-```
+# Run the program for problemc a.
+make answer-a
 
-> - Run the answers.
+# Run the program for problem b.
+make answer-b
 
-```sh
-./run-answer-a.sh
-./run-answer-b.sh
-./run-answer-c.sh
+# Run the program for problem c.
 ```
